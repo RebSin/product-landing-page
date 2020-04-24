@@ -2,11 +2,24 @@
 <html>
   <head>
     <link href ="main.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
   <body>
     <header id ="header">
-      <img id="header-img" src = "https://s3.amazonaws.com/freecodecamp/original_trombones.png">
+      <div class="jumbotron">
+        <div class="container">
+          <img id="header-img" class="display-3" src = "https://s3.amazonaws.com/freecodecamp/original_trombones.png">
+          <p class="float-right">Handcrafted, home-made masterpieces. </p>
+        </div>
+      </div>
+
+
+      <!-- <img id="header-img" src = "https://s3.amazonaws.com/freecodecamp/original_trombones.png"> -->
       <nav id ="nav-bar">
+      <!-- class="navbar navbar-light" -->
+
         <a href ="#video" class = "nav-link"> Features </a>
         <a href ="#form" class = "nav-link"> How It Works </a>
         <a href ="#footer" class = "nav-link"> Pricing </a>
@@ -15,20 +28,76 @@
 <!-- Need to take you to diff parts of the landing page. -->
 
   <form id = "form" action = "https://www.freecodecamp.com/email-submit">
-  <h2="tagline"> Handcrafted, home-made masterpieces <h2>
   <label for="email"></label>
-  <input type="email" name="email" id ="email" placeholder="janedoe@gmail.com">
-  <input type="submit" id ="submit"> </input>
+  <input type="email" name="email" id ="email" placeholder="Enter your email address">
+  <input type="submit" id ="submit" value ="Get Started"> </input>
   </form>
+
+<ul id = "list">
+<li>
+  <h3> Premium Materials </h3>
+  <br>
+  <p> Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase. </p>
+ </li>
+<li>
+  <h3> Fast Shipping </h3>
+  <br>
+  <p> We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied. </p>
+
+</li>
+<li>
+  <h3> Quality Assurance </h3>
+  <br>
+  <p> For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument. </p>
+
+
+</li>
+</ul>
+
+
 
   <iframe id="video" width="560" height="315"
   src="https://www.youtube.com/embed/y8Yv4pnO7qc"
   frameborder="0" allow="accelerometer; autoplay;
   encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
     </header>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h1>TENOR TROMBONE </h1>
+        <h2>$600</h2>
+        <p>Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor.<br>
+          Lorem ipsum.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">SELECT &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h1>BASS TROMBONE </h1>
+        <h2>$900</h2>
+        <p>Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor.<br>
+          Lorem ipsum.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">SELECT &raquo;</a></p>
+      </div>
+      <div class="col-md-4">
+        <h1>VALVE TROMBONE </h1>
+        <h2>$1200</h2>
+        <p>Lorem ipsum. <br>
+          Lorem ipsum. <br>
+          Lorem ipsum dolor.<br>
+          Lorem ipsum.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">SELECT &raquo;</a></p>
+      </div>
+    </div>
+
+
   <footer id="footer">
+     <p>&copy; Company 2017-2019</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
