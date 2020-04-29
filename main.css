@@ -12,6 +12,10 @@
   color: white;
 }
 
+#email {
+  padding: 10px;
+}
+
 .nav-link:hover {
   color: white;
   background-color: #373737;
@@ -47,6 +51,7 @@
 #submit {
    background-color: green;
    border-color: green;
+   width: 20vh;
  }
 #trombonename {
   font-size: 150%;
